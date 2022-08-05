@@ -1,10 +1,10 @@
-# ConfD Demo with External SSH Server and Externa Authentication
+# ConfD Demo with External SSH Server and External Authentication
 
 ## Introduction
 
 ext-ssh-ext-auth is a multi container application demonstrating how to
-run confd with an external ssh server while at the same time using
-external authentication. The application consist of two containers,
+run Confd with an external ssh server while at the same time using
+external authentication. The application consists of two containers,
 one including confd and an ssh server, the other an external
 authentication service. docker-compose is used to manage the
 application, the containers and the configuration files.
